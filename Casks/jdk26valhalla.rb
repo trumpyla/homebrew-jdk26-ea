@@ -1,16 +1,16 @@
 cask "jdk26valhalla" do
-  version "26-ea+18"
+  version "26-ea+19"
   name "JDK 26 EA"
   desc "Early-Access JDK 26"
   homepage "https://jdk.java.net/26/"
   on_macos do
     on_arm do
-      url "https://download.java.net/java/early_access/jdk26/18/GPL/openjdk-26-ea+18_macos-aarch64_bin.tar.gz"
-      sha256 "4a74619f410602fe94225796b1cd7dd6bc914a2b6d9d76a1ae3934173dec85c3"
+      url "https://download.java.net/java/early_access/jdk26/19/GPL/openjdk-26-ea+19_macos-aarch64_bin.tar.gz"
+      sha256 "b723001f467ffeb6421795aff8edc46e40ebdc57cd135ebc13df9eab6d79cf1c"
     end
     on_intel do
-      url "https://download.java.net/java/early_access/jdk26/18/GPL/openjdk-26-ea+18_macos-x64_bin.tar.gz"
-      sha256 "b6a8d8f6610fce87d04d7b61dbf1893a098a8d5c0eeb5790a0c8fdfda766af2e"
+      url "https://download.java.net/java/early_access/jdk26/19/GPL/openjdk-26-ea+19_macos-x64_bin.tar.gz"
+      sha256 "5bc24e939d37ca11e56c58448e167a97ad00b3c6258f33a8d038a80931a89950"
     end
   end
   postflight do
