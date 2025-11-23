@@ -1,19 +1,19 @@
 class Jdk26valhalla < Formula
   desc "Early-Access JDK 26"
   homepage "https://jdk.java.net/26/"
-  version "26-ea+18"
+  version "26-ea+25"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://download.java.net/java/early_access/jdk26/18/GPL/openjdk-26-ea+18_macos-aarch64_bin.tar.gz"
-      sha256 "4a74619f410602fe94225796b1cd7dd6bc914a2b6d9d76a1ae3934173dec85c3"
+      url "https://download.java.net/java/early_access/jdk26/25/GPL/openjdk-26-ea+25_macos-aarch64_bin.tar.gz"
+      sha256 "460426301375a6bc82834b00186e2ec800f682312d64850fe128562fac7edb58"
     else
-      url "https://download.java.net/java/early_access/jdk26/18/GPL/openjdk-26-ea+18_macos-x64_bin.tar.gz"
-      sha256 "b6a8d8f6610fce87d04d7b61dbf1893a098a8d5c0eeb5790a0c8fdfda766af2e"
+      url "https://download.java.net/java/early_access/jdk26/25/GPL/openjdk-26-ea+25_macos-x64_bin.tar.gz"
+      sha256 "b9fdaa326764be2e36f86b87d42b9751f4b260fe13b4b6a048297002a48f1869"
     end
   end
   on_linux do
-    url "https://download.java.net/java/early_access/jdk26/18/GPL/openjdk-26-ea+18_linux-x64_bin.tar.gz"
-    sha256 "efaa7c08b216ca30d5769c56a81337742b795188f8ab45532f711cd0fedd7971"
+    url "https://download.java.net/java/early_access/jdk26/25/GPL/openjdk-26-ea+25_linux-x64_bin.tar.gz"
+    sha256 "34a09a42f38d04f223c2c3c3665e4638bcda263c69c38e8e363760be8ceeaffd"
   end
   def install
     libexec.install Dir["*"]
