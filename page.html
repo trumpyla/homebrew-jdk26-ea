@@ -1,75 +1,87 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><title>Valhalla Early-Access Builds</title><link rel="shortcut icon" href="../images/nanoduke.ico"></link><link rel="stylesheet" type="text/css" href="../page.css"></link></head><body><div id="main">
-<h1>Project Valhalla Early-Access Builds</h1>
-<p>This is an early access build from <a href="http://openjdk.java.net/projects/valhalla">Project Valhalla</a>
-implementing <a href="https://openjdk.org/jeps/401">Value Classes
-and Objects</a>. See the <a href="https://openjdk.org/projects/valhalla/early-access">release
-notes</a> for details.</p>
-<p>The goal of this release is to establish a milestone and solicit
-feedback as we work toward integrating this functionality into the
-JDK. Binaries are provided as a convenience so that users do not
-need to build from the <a href="https://github.com/openjdk/valhalla/tree/lworld">source
-code</a>.</p>
-<p>Warning: This build is based on an incomplete version of
-<a href="http://openjdk.org/projects/jdk/23/">JDK 23</a>.</p>
-<h2>Build 23-valhalla+1-90 (2024/7/26)</h2>
-<p>These early-access builds are provided under the <a href="http://openjdk.org/legal/gplv2+ce.html">GNU General Public
-License, version&#160;2, with the Classpath Exception</a>.</p>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><title>OpenJDK JDK 26 Early-Access Builds</title><link rel="shortcut icon" href="../images/nanoduke.ico"></link><link rel="stylesheet" type="text/css" href="../page.css"></link></head><body><div id="main">
+<h1>OpenJDK JDK 26 Early-Access Builds</h1>
+<h2><a href="http://openjdk.org/projects/jdk/26/">Schedule, status,
+&amp; features</a> (<a href="http://openjdk.org">OpenJDK</a>)</h2>
+<h2>Documentation</h2>
+<ul>
+<li><a href="http://openjdk.org/projects/jdk/26/">Features</a></li>
+<li><a href="release-notes">Release notes</a></li>
+<li><a href="https://download.java.net/openjdk/testresults/26/testresults.html">
+Test results</a></li>
+<li><a href="https://download.java.net/java/early_access/jdk26/docs/api/">API
+Javadoc</a></li>
+</ul>
+<h2>Build 28 (2025/12/12)</h2>
+<ul>
+<li><a href="https://github.com/openjdk/jdk/compare/jdk-26%2B27...jdk-26%2B28">Changes
+in this build</a></li>
+<li><a href="https://bugs.openjdk.org/issues/?jql=project%20%3D%20JDK%20AND%20fixversion%20%3D%2026%20and%20%22resolved%20in%20build%22%20%3D%20b28%20order%20by%20component%2C%20subcomponent">
+Issues addressed in this build</a></li>
+</ul>
+<p>These early-access, open-source builds are provided under the
+<a href="http://openjdk.org/legal/gplv2+ce.html" target="_blank">GNU General Public License, version&#160;2, with the
+Classpath Exception</a>.</p>
 <blockquote>
 <table class="builds" summary="builds">
 <tr class="build">
 <th>Linux&#8202;/&#8202;AArch64</th>
-<td><a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_linux-aarch64_bin.tar.gz">
-tar.gz</a> <span class="hash">(<a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_linux-aarch64_bin.tar.gz.sha256">sha256</a>)</span></td>
-<td><span class="size">204122896</span></td>
+<td><a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_linux-aarch64_bin.tar.gz">
+tar.gz</a></td>
+<td><span class="size">225041306</span></td>
+<td><span class="hash">(<a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_linux-aarch64_bin.tar.gz.sha256">sha256</a>)</span></td>
 </tr>
 <tr class="build">
 <th>Linux&#8202;/&#8202;x64</th>
-<td><a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_linux-x64_bin.tar.gz">
-tar.gz</a> <span class="hash">(<a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_linux-x64_bin.tar.gz.sha256">sha256</a>)</span></td>
-<td><span class="size">206327187</span></td>
+<td><a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_linux-x64_bin.tar.gz">
+tar.gz</a></td>
+<td><span class="size">227263443</span></td>
+<td><span class="hash">(<a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_linux-x64_bin.tar.gz.sha256">sha256</a>)</span></td>
 </tr>
 <tr class="build">
 <th>macOS&#8202;/&#8202;AArch64</th>
-<td><a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_macos-aarch64_bin.tar.gz">
-tar.gz</a> <span class="hash">(<a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_macos-aarch64_bin.tar.gz.sha256">sha256</a>)</span></td>
-<td><span class="size">198986060</span></td>
+<td><a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_macos-aarch64_bin.tar.gz">
+tar.gz</a></td>
+<td><span class="size">220083860</span></td>
+<td><span class="hash">(<a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_macos-aarch64_bin.tar.gz.sha256">sha256</a>)</span></td>
 </tr>
 <tr class="build">
 <th>macOS&#8202;/&#8202;x64</th>
-<td><a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_macos-x64_bin.tar.gz">
-tar.gz</a> <span class="hash">(<a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_macos-x64_bin.tar.gz.sha256">sha256</a>)</span></td>
-<td><span class="size">201350607</span></td>
+<td><a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_macos-x64_bin.tar.gz">
+tar.gz</a></td>
+<td><span class="size">222439517</span></td>
+<td><span class="hash">(<a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_macos-x64_bin.tar.gz.sha256">sha256</a>)</span></td>
 </tr>
 <tr class="build">
 <th>Windows&#8202;/&#8202;x64</th>
-<td><a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_windows-x64_bin.zip">
-zip</a> <span class="hash">(<a href="https://download.java.net/java/early_access/valhalla/1/openjdk-23-valhalla+1-90_windows-x64_bin.zip.sha256">sha256</a>)</span></td>
-<td><span class="size">203103151</span></td>
+<td><a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_windows-x64_bin.zip">
+zip</a></td>
+<td><span class="size">226833907</span></td>
+<td><span class="hash">(<a href="https://download.java.net/java/early_access/jdk26/28/GPL/openjdk-26-ea+28_windows-x64_bin.zip.sha256">sha256</a>)</span></td>
 </tr>
 </table>
 </blockquote>
-<ul class="spread">
+<h2>Notes</h2>
+<ul>
 <li>
 <p>If you have difficulty downloading any of these files please
 contact <a href="mailto:download-help@openjdk.org">download-help@openjdk.org</a>.</p>
 </li>
-</ul>
-<h2>Documentation</h2>
-<ul>
-<li><a href="https://openjdk.org/projects/valhalla/early-access">Release
-Notes</a></li>
-<li><a href="https://openjdk.org/jeps/401">Value Classes and
-Objects JEP</a></li>
-<li><a href="http://cr.openjdk.java.net/~dlsmith/jep401/latest">Specification
-Changes</a></li>
-<li><a href="https://download.java.net/java/early_access/valhalla/docs/api/">API
-Javadoc</a></li>
+<li>
+<p>These builds reflect the current state of development. Each
+build is accompanied by release notes that describe the features
+and changes in that build. A <a href="https://openjdk.org/jeps">JDK
+Enhancement Proposal (JEP)</a> recently targeted to this release
+might not be in the current build, but will appear in a future
+build.</p>
+</li>
 </ul>
 <h2>Feedback</h2>
-<p>Please send feedback via e-mail to <a href="mailto:valhalla-dev@openjdk.org">valhalla-dev@openjdk.org</a>. To
-send e-mail to this address you must first <a href="http://mail.openjdk.org/mailman/listinfo/valhalla-dev">subscribe
-to the mailing list</a>.</p>
+<p>If you have suggestions or encounter bugs, please submit them
+via the <a href="http://bugreport.java.com/">Java Platform
+bug-reporting channel</a>. Be sure to include complete version
+information from the output of the <code>java --version</code>
+command.</p>
 <h2>Disclaimers</h2>
 <ul>
 <li>
@@ -108,7 +120,7 @@ authorized list of countries. You will not be able to access the
 source code if you are downloading from a country that is not on
 this list. We are continuously reviewing this list for addition of
 other countries.</p>
-</div><div id="sidebar"><div id="sidebar-logo"><a href=".."><img alt="jdk.java.net logo" width="104" height="19" src="../images/jdk.java.net2.svg"></img></a></div><div class="links"><div class="about">GA Releases</div><div class="link"><a href="../25/">JDK 25</a></div><div class="link"><a href="../javafx25/">JavaFX 25</a></div><div class="link"><a href="../jmc/9">JMC 9.1.1</a></div></div><div class="links"><div class="about">Early-Access Releases</div><div class="link"><a href="../26/">JDK 26</a></div><div class="link"><a href="../javafx26/">JavaFX 26</a></div><div class="link"><a href="../javafxdirect3d12/">JavaFX Direct3D 12</a></div><div class="link"><a href="../jextract/">Jextract</a></div><div class="link"><a href="../leyden/">Leyden</a></div><div class="link"><a href="../loom/">Loom</a></div><div class="link"><a href="../valhalla/">Valhalla</a></div></div><div class="links"><div class="about">Reference Implementations</div><div class="link"><a href="../java-se-ri/25">Java SE 25</a></div><div class="link"><a href="../java-se-ri/24">Java SE 24</a></div><div class="link"><a href="../java-se-ri/23">Java SE 23</a></div><div class="link"><a href="../java-se-ri/22">Java SE 22</a></div><div class="link"><a href="../java-se-ri/21">Java SE 21</a></div><div class="link"><a href="../java-se-ri/20">Java SE 20</a></div><div class="link"><a href="../java-se-ri/19">Java SE 19</a></div><div class="link"><a href="../java-se-ri/18">Java SE 18</a></div><div class="link"><a href="../java-se-ri/17-MR1">Java SE 17</a></div><div class="link"><a href="../java-se-ri/16">Java SE 16</a></div><div class="link"><a href="../java-se-ri/15">Java SE 15</a></div><div class="link"><a href="../java-se-ri/14">Java SE 14</a></div><div class="link"><a href="../java-se-ri/13">Java SE 13</a></div><div class="link"><a href="../java-se-ri/12">Java SE 12</a></div><div class="link"><a href="../java-se-ri/11-MR3">Java SE 11</a></div><div class="link"><a href="../java-se-ri/10">Java SE 10</a></div><div class="link"><a href="../java-se-ri/9">Java SE 9</a></div><div class="link"><a href="../java-se-ri/8-MR6">Java SE 8</a></div><div class="link"><a href="../java-se-ri/7">Java SE 7</a></div></div><div class="links"><div class="about">Feedback</div><div class="link"><a href="http://bugreport.java.com">Report a bug</a></div></div><div class="links"><div class="about"><a href="../archive/">Archive</a></div></div></div><div id="footer"><div id="footer-logo"><a href="https://oracle.com"><img alt="Oracle logo" width="100" height="13" src="../images/oracle.svg"></img></a></div><div> &#169; 2025 Oracle Corporation and/or its affiliates </div><div><a href="../tou">Terms of Use</a>
+</div><div id="sidebar"><div id="sidebar-logo"><a href=".."><img alt="jdk.java.net logo" width="104" height="19" src="../images/jdk.java.net2.svg"></img></a></div><div class="links"><div class="about">GA Releases</div><div class="link"><a href="../25/">JDK 25</a></div><div class="link"><a href="../javafx25/">JavaFX 25</a></div><div class="link"><a href="../jmc/9">JMC 9.1.1</a></div></div><div class="links"><div class="about">Early-Access Releases</div><div class="link"><a href="../27/">JDK 27</a></div><div class="link"><a href="../26/">JDK 26</a></div><div class="link"><a href="../javafx26/">JavaFX 26</a></div><div class="link"><a href="../javafxdirect3d12/">JavaFX Direct3D 12</a></div><div class="link"><a href="../jextract/">Jextract</a></div><div class="link"><a href="../leyden/">Leyden</a></div><div class="link"><a href="../loom/">Loom</a></div><div class="link"><a href="../valhalla/">Valhalla</a></div></div><div class="links"><div class="about">Reference Implementations</div><div class="link"><a href="../java-se-ri/25">Java SE 25</a></div><div class="link"><a href="../java-se-ri/24">Java SE 24</a></div><div class="link"><a href="../java-se-ri/23">Java SE 23</a></div><div class="link"><a href="../java-se-ri/22">Java SE 22</a></div><div class="link"><a href="../java-se-ri/21">Java SE 21</a></div><div class="link"><a href="../java-se-ri/20">Java SE 20</a></div><div class="link"><a href="../java-se-ri/19">Java SE 19</a></div><div class="link"><a href="../java-se-ri/18">Java SE 18</a></div><div class="link"><a href="../java-se-ri/17-MR1">Java SE 17</a></div><div class="link"><a href="../java-se-ri/16">Java SE 16</a></div><div class="link"><a href="../java-se-ri/15">Java SE 15</a></div><div class="link"><a href="../java-se-ri/14">Java SE 14</a></div><div class="link"><a href="../java-se-ri/13">Java SE 13</a></div><div class="link"><a href="../java-se-ri/12">Java SE 12</a></div><div class="link"><a href="../java-se-ri/11-MR3">Java SE 11</a></div><div class="link"><a href="../java-se-ri/10">Java SE 10</a></div><div class="link"><a href="../java-se-ri/9">Java SE 9</a></div><div class="link"><a href="../java-se-ri/8-MR6">Java SE 8</a></div><div class="link"><a href="../java-se-ri/7">Java SE 7</a></div></div><div class="links"><div class="about">Feedback</div><div class="link"><a href="http://bugreport.java.com">Report a bug</a></div></div><div class="links"><div class="about"><a href="../archive/">Archive</a></div></div></div><div id="footer"><div id="footer-logo"><a href="https://oracle.com"><img alt="Oracle logo" width="100" height="13" src="../images/oracle.svg"></img></a></div><div> &#169; 2025 Oracle Corporation and/or its affiliates </div><div><a href="../tou">Terms of Use</a>
           &#183; <a href="https://www.oracle.com/legal/privacy/">Privacy</a>
           &#183; <a href="https://openjdk.org/legal/openjdk-trademark-notice.html">Trademarks</a></div></div></body></html>
 
